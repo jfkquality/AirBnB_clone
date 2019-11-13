@@ -15,3 +15,8 @@ class test_base_model(unittest.TestCase):
         check = pep8check.check_files(["models/amenity.py"])
         self.assertEqual(check.total_errors, 0,
                 "Found code errors")
+    def test_dict(self):
+        """ test dict function """
+        test1 = BaseModel()
+        dict1 = test.to_dict()
+        self.assertInstance(dict1, dict)
