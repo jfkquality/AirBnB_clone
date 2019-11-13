@@ -7,11 +7,12 @@ import uuid
 from models.city import City
 import pep8
 
+class test_city(unittest.TestCase):
+    """ test class """
+    def test_pep8(self):
+        """ test pep8 """
 
-def test_pep8(self):
-    """ test pep8 """
-
-    pep8check = pep8.StyleGuide(quiet=True)
-    check = pep8check.check_files(["models/city.py"])
-    self.assertEqual(check.total_errors, 0,
-            "Found code errors")
+        pep8check = pep8.StyleGuide(quiet=True)
+        check = pep8check.check_files(["models/city.py"])
+        self.assertEqual(check.total_errors, 0,
+                "Found code errors")
