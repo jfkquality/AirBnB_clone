@@ -16,4 +16,4 @@ class test_amenity(unittest.TestCase):
         pep8check = pep8.StyleGuide(quiet=True)
         check = pep8check.check_files(["models/base_model.py"])
         self.assertEqual(check.total_errors, 0,
-                "Found code errors")
+                        "Found code errors")
