@@ -8,6 +8,7 @@ import uuid
 from models.base_model import BaseModel
 import pep8
 
+
 class test_amenity(unittest.TestCase):
     """ test class """
     def test_pep8(self):
