@@ -38,6 +38,6 @@ class FileStorage:
             with open(self.__file_path, 'r') as f:
                 newdict = json.load(f)
             for key, value in newdict.items():
-                self.__objects[key] = eval(v["__class__"])(**value)
+                self.__objects[key] = eval(value["__class__"](**value))
         except:
             pass
