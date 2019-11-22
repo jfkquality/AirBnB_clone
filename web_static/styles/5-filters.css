@@ -1,0 +1,51 @@
+  .filters {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 8px; */
+    /* padding-left: 30px; */
+    /* align-self: center; */
+  }
+  .locations, .amenities {
+    height: 100%;
+    width: 25%;
+    /* padding-left: 30px; */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 3%;
+  }
+  .locations, .amenities, h3 {
+    font-weight: 600;
+    margin: 1%;
+  }
+  .locations, .amenities, h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 1%;
+  }
+  .amenities {
+    border-left: 1px solid #DDDDDD;
+    /* padding-left: 3%; */
+  }
+  button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border-style: none;
+    border-radius: 4px;
+    /* align-self: flex-end; */
+    margin-right: 30px;
+  }
+  button:hover {
+    opacity: 90%;
+  }
