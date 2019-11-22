@@ -63,7 +63,7 @@ button:hover {
 }
 .popover {
   position: absolute;
-  display: inline-flex; /* none */
+  display: none;
   flex-direction: column;
   list-style-type: none;
   background: #FAFAFA;
