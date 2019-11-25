@@ -1,0 +1,33 @@
+/* .places {
+    display: flex;
+    flex-flow: row wrap;
+}
+.places h1 {
+    flex-basis: 100%;
+} */
+.places {
+    /* display: flex; */
+    /* flex: 1; */
+    flex-basis: 100%;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    /* align-content: space-between; */
+}
+.places h1, h2 {
+    font-size: 30px;
+}
+article {
+    /* display: flex; */
+    display: inline-flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+article:last-child {
+    margin-left: 25%;
+}
