@@ -85,3 +85,13 @@ button:hover {
 
 .popover ul li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+/* .dropdown:hover .popover { */
+    /* opacity: 50%; */
+  display: inline-flex;
+  flex-direction: column;
+}
