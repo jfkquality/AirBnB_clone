@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     /* align-content: space-between; */
 }
-.places h1, h2 {
+.places h1 h2 {
     font-size: 30px;
 }
 article {
@@ -27,6 +27,7 @@ article {
 .home_rate h2 {
     margin: 0;
     margin-right: 60px;
+    font-size: 30px;
     /* display: inline-flex; */
     /* justify-content: space-between; */
     /* align-self: flex-start; */
@@ -68,37 +69,67 @@ article:last-of-type {
 .max_guest {
     background-image: url("../images/icon_group.png");
     background-repeat: no-repeat;
+    background-position-x: center;
     padding-top: 45px;
 }
 .number_rooms {
     background-image: url("../images/icon_bed.png");
     background-repeat: no-repeat;
+    background-position-x: center;
     padding-top: 45px;
 }
 .number_bathrooms {
     background-image: url("../images/icon_bath.png");
     background-repeat: no-repeat;
+    background-position-x: center;
     padding-top: 45px;
 }
 .user {
     margin: 2% 0;
 }
-.amenities {
+.amenities2, .reviews {
     margin-top: 40px;
-    border-bottom: 1px solid #DDDDDD;
 }
-.amenities .reviews, h2 {
+.amenities2 h2, .reviews h2 {
     font-size: 16px;
-}
-.amenities ul {
-    list-style: none;
-}
-.reviews {
-    margin-top: 40px;
     border-bottom: 1px solid #DDDDDD;
 }
-.reviews ul {
+.amenities2 ul, .reviews ul {
     list-style: none;
+    padding: 0;
+}
+.amenities2 li {
+    padding: 5px;
+}
+.reviews p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.reviews h3 {
+    margin: 0;
+}
+.amenities2 .tv {
+    background: url("../images/icon_tv.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left center;
+    padding-left: 25px;
+}
+.amenities2 .wifi {
+    background: url("../images/icon_wifi.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left center;
+    padding-left: 25px;
+    align-self: auto;
+}
+.amenities2 .pets {
+    background: url("../images/icon_pets.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: left center;
+    padding-left: 25px;
+    align-self: auto;
 }
 /* .max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
