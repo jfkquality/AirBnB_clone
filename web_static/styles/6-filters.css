@@ -62,7 +62,7 @@ button:hover {
 }
 
 .dropdown {
-  margin: 0;
+  margin-left: -13%;
   padding: 0;
   position: relative;
   /* width: 100%; */
@@ -82,7 +82,9 @@ button:hover {
   overflow: auto;
   z-index: 1;
 }
-
+/* .popover ul {
+  padding: 0;
+} */
 .popover ul li {
   list-style-type: none;
   margin: 0;
