@@ -23,18 +23,9 @@ article {
     border-radius: 4px;
     justify-content: center;
 }
-.home_rate {
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-around;
-}
-.home_rate h2 {
+article h2 {
+    text-align: center;
     margin: 0;
-    margin-right: 60px;
-    /* display: inline-flex; */
-    /* justify-content: space-between; */
-    /* align-self: flex-start; */
-    /* justify-self: center; */
 }
 .price_by_night {
     color: #FF5A5F;
@@ -43,23 +34,15 @@ article {
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    margin-top: -10px;
+    margin-top: -40px;
     margin-left: auto;
     line-height: 60px;
     text-align: center;
     /* padding: 0; */
-
 }
-.home_rate, span {
-    /* margin: 0;
-    padding: 0; */
-    /* position: relative; */
-    align-self: flex-end;
-    /* justify-self: center; */
+.price_by_night, span {
+    flex: 1;
 }
-/* article:last-of-type {
-    margin-left: 25%;
-} */
 .information {
     display: flex;
     flex-direction: row;
