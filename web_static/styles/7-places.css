@@ -1,12 +1,6 @@
-/* .places {
-    display: flex;
-    flex-flow: row wrap;
-}
-.places h1 {
-    flex-basis: 100%;
-} */
 .places {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     /* flex: 1; */
     flex-basis: 100%;
     flex-direction: row; 
@@ -15,6 +9,9 @@
 }
 .places h1, h2 {
     font-size: 30px;
+}
+.places h1 {
+    flex-basis: 100%;
 }
 article {
     /* display: flex; */
@@ -28,6 +25,6 @@ article {
     justify-content: center;
     align-items: center;
 }
-article:last-child {
+/* article:last-child {
     margin-left: 25%;
-}
+} */
